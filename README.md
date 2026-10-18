@@ -16,7 +16,9 @@
 godot --path knight-quest
 ```
 
-Готовая сборка под Windows (без редактора) лежит в `knight-quest-build/` — запускать `KnightQuest.exe`.
+Готовая сборка под Windows: скачайте `KnightQuest.exe` со страницы
+[релизов](https://github.com/ArenaGames120/KnightQuest/releases/latest) и запустите — устанавливать
+ничего не нужно (Windows 10/11, 64 бита). Собрать самому — см. «Сборка под Windows» ниже.
 
 ## Управление
 
