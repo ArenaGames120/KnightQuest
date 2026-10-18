@@ -1,0 +1,16 @@
+# Godot: кэш редактора и импортированные ресурсы (пересоздаются автоматически)
+.godot/
+
+# Готовые сборки (exe выкладывается в разделе Releases)
+knight-quest-build/
+build/
+*.exe
+*.pck
+
+# Отчёты инструментов (пересоздаются check_levels.gd)
+levels_dump.txt
+
+# Мусор ОС и редакторов
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,40 @@
+; Knight Quest - 2D платформер
+; Проект Godot 4.7
+
+config_version=5
+
+[application]
+
+config/name="Knight Quest"
+config/description="2D-платформер: рыцарь проходит 20 уровней с головоломками, монетами и врагами, чтобы спасти принцессу."
+config/features=PackedStringArray("4.7", "GL Compatibility")
+run/main_scene="res://scenes/Main.tscn"
+
+[autoload]
+
+Game="*res://scripts/game.gd"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[layer_names]
+
+2d_physics/layer_1="world"
+2d_physics/layer_2="player"
+2d_physics/layer_3="enemy"
+2d_physics/layer_4="hazard"
+2d_physics/layer_5="pickup"
+2d_physics/layer_6="crate"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.09, 0.11, 0.19, 1)
