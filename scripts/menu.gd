@@ -35,6 +35,7 @@ func close() -> void:
 func _build() -> void:
 	var bg := TextureRect.new()
 	bg.texture = Art.tex("bg_sky")
+	bg.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
 	bg.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	bg.stretch_mode = TextureRect.STRETCH_SCALE
 	bg.set_anchors_preset(Control.PRESET_FULL_RECT)
@@ -61,11 +62,11 @@ func _build() -> void:
 	title_row.alignment = BoxContainer.ALIGNMENT_CENTER
 	title_row.add_theme_constant_override("separation", 10)
 	box.add_child(title_row)
-	title_row.add_child(_pic("knight", 16, 20, 30, 38))
+	title_row.add_child(_pic("knight", 16, 20, 32, 40))
 	var title := _text("КВЕСТ РЫЦАРЯ", 26)
 	title.add_theme_color_override("font_color", Color(1.0, 0.85, 0.45))
 	title_row.add_child(title)
-	title_row.add_child(_pic("princess", 16, 20, 30, 38))
+	title_row.add_child(_pic("princess", 16, 20, 32, 40))
 
 	var sub := _text("Пройди %d уровней с головоломками, монетами и врагами — и спаси принцессу!" % Game.LEVEL_COUNT, 10)
 	sub.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER

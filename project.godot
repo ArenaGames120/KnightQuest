@@ -20,8 +20,9 @@ window/size/viewport_width=640
 window/size/viewport_height=360
 window/size/window_width_override=1280
 window/size/window_height_override=720
-window/stretch/mode="viewport"
+window/stretch/mode="canvas_items"
 window/stretch/aspect="keep"
+window/stretch/scale_mode="integer"
 
 [layer_names]
 
@@ -37,4 +38,5 @@ window/stretch/aspect="keep"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/canvas_textures/default_texture_filter=0
+2d/snap/snap_2d_transforms_to_pixel=true
 environment/defaults/default_clear_color=Color(0.09, 0.11, 0.19, 1)
