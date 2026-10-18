@@ -14,3 +14,6 @@ levels_dump.txt
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Godot импортирует любые PNG в проекте — для скриншотов документации это не нужно
+docs/*.import

@@ -20,6 +20,16 @@ godot --path knight-quest
 [релизов](https://github.com/ArenaGames120/KnightQuest/releases/latest) и запустите — устанавливать
 ничего не нужно (Windows 10/11, 64 бита). Собрать самому — см. «Сборка под Windows» ниже.
 
+## Скриншоты
+
+![Главное меню: 20 уровней](docs/menu.png)
+
+![Внутренний двор — 18-й уровень](docs/level18.png)
+
+![Финальный босс — Король-лич](docs/boss_lich.png)
+
+![Принцесса спасена](docs/final.png)
+
 ## Управление
 
 | Клавиши | Действие |
